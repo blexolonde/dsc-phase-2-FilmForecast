@@ -1,13 +1,6 @@
 # Phase 2 Project Description
 
-You've made it through the second phase of this course, and now you will put your new skills to use with a large end-of-Phase project!
 
-In this project description, we will cover:
-
-* [***Project Overview:***](#project-overview) the project goal, audience, and dataset
-* [***Deliverables:***](#deliverables) the specific items you are required to produce for this project
-* [***Grading:***](#grading) how your project will be scored
-* [***Getting Started:***](#getting-started) guidance for how to begin your first project
 
 ## Project Overview
 
