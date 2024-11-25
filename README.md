@@ -122,7 +122,7 @@ To uncover trends and patterns in the movie industry, I analyzed multiple datase
 - **vote_average** and **vote_count**: Average audience rating and number of votes (non-null).  
 
 ### Actions I Took:
-- Decoded `genre_ids` into human-readable genres to improve interpretability.  
+-   
 
 ---
 
