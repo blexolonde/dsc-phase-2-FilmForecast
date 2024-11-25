@@ -41,6 +41,9 @@ The following datasets were prioritized to answer specific questions:
 - **The Numbers**: Budget and revenue correlations.  
 - **Rotten Tomatoes Movie Info**: Genre, director, and runtime analysis.  
 - **TMDB**: Popularity, ratings, and language performance trends.
+- *** im.db.zip** 
+  * Zipped SQLite database 
+  * `movie_basics` and `movie_ratings` tables are most relevant
 
 ---
 
