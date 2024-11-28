@@ -129,12 +129,12 @@ Using Tableau, I developed dashboards to allow stakeholders to:
 ## **Files in Repository**
 | **File Name**                   | **Description**                                      |
 |---------------------------------|----------------------------------------------------|
-| `zippeddata folder`             | Dataset used throughout the analysis. |
+| zippeddata folder               | Dataset used throughout the analysis. |
 | `final.ipynb`                   | Jupyter Notebook with code, analysis, and visualizations. |
 | `requirements.txt`              | File listing all Python dependencies.             |
 | `Movie_insight_Workbook.twb`    | Tableau workbook containing all dashboards.        |
 | `movie_insight.pdf`             | pdf of the notebook containing all dashboards.        |
-| `images folder``                | all images used in the notebook.        |
+|   images folder                 | all images used in the notebook.        |
 ---
 
 ## **Future Enhancements**
