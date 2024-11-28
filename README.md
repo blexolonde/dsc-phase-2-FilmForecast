@@ -18,105 +18,120 @@
 ---
 
 
-## **Project Overview**
-In my **Movie Analysis** project, I aimed to uncover pivotal insights into the movie industry by addressing key questions, including:
+### Project Overview  
 
-- Which genres consistently generate the highest revenue?
-- How do budgets correlate with worldwide gross?
-- What are the most profitable release windows for movies?
-- How do audience ratings influence box office success?
-- Which studios have the highest profit margins?
-- Does the original language of a movie influence its global performance?
+In my Movie Analysis project, I aimed to uncover pivotal insights into the movie industry by addressing key questions, including:  
 
-My objective was to provide stakeholders with actionable, data-driven insights to guide strategic decisions in movie production and distribution.
+- Which genres consistently generate the highest revenue?  
+- How do budgets correlate with worldwide gross?  
+- What are the most profitable release windows for movies?  
+- How do audience ratings influence box office success?  
+- Which studios have the highest profit margins?  
+- Does the original language of a movie influence its global performance?  
 
----
-
-## **Data Understanding**
-To answer these questions, I analyzed multiple datasets, merging and cleaning them to create a unified dataset for analysis. The primary datasets I used were:
-
-### **Datasets**
-1. **Box Office Mojo**: Data on box office performance by studio.
-2. **The Numbers**: Focused on production budgets and revenues.
-3. **Rotten Tomatoes Reviews**: Audience and critic review scores.
-4. **Rotten Tomatoes Movie Info**: Metadata, including genres, runtimes, and release dates.
-5. **TMDB**: Popularity metrics, genre details, and vote counts.
-6. **im.db.zip**: A zipped SQLite database containing `movie_basics` and `movie_ratings` tables for detailed insights into movie ratings and metadata.
-
-### **Actions Taken**
-- Cleaned and standardized datasets to address missing values and formatting inconsistencies.
-- Merged relevant datasets to form a consolidated, clean dataset for analysis.
-
-### **Key Features in the Data**
-- **Revenue Metrics**: Domestic, foreign, and worldwide gross.
-- **Production Metrics**: Budget, profit, and profit margins.
-- **Movie Details**: Genres, runtimes, release dates, and languages.
-- **Audience Insights**: Average ratings and vote counts.
+My objective was to provide stakeholders with actionable, data-driven insights to guide strategic decisions in movie production and distribution.  
 
 ---
 
-## **Questions Answered**
-1. **What genres should producers invest in?**
-   - Action and adventure movies consistently dominate global revenue.
-![alt text](c5b801a3-7044-4f40-9e94-cb82ec99f003.png)
----
-2. **Does budget guarantee success?**
-   - Higher budgets correlate with revenue, but profitability depends on strategic spending.
-![alt text](65759c0a-06f6-46a1-9fee-f5ae4b467fb7.png)
----
-3. **Which studios have the highest profit margins?**
-   - Top-performing studios like Disney and Universal deliver high profit margins but show significant variability.
-![alt text](a38be226-eb14-497c-9008-920174b76873.png)
----
-4. **When should movies be released?**
-   - Summer and holiday seasons maximize box office revenue.
-![alt text](b2bf37e2-1d14-43ae-9fca-50083b97cf30.png)
----
-5. **How do audience ratings affect success?**
-   - Both higher ratings and vote counts correlate strongly with better box office performance.
-![alt text](690f6454-e7ee-4021-9261-b7ec78131d8c.png)![alt text](5b3ebc33-fafd-4070-aa09-ae54e78f49a4.png)
----
-6. **How does a movie's original language influence revenue?**
-   - English-language movies lead in global revenue, though select non-English films show increasing traction in niche markets.
-![alt text](f8af2906-20ca-465f-89ca-1ee1967cb97f.png)
----
+### Data Understanding  
 
-## **Graphs and Visualizations**
-### Key Visualizations Created:
-- **Profit Margins by Studio**: Displays the variability in studio profitability.
-- **Budget vs. Profit Margin**: Explores the relationship between budgets and profitability.
-- **Average Revenue by Genre**: Highlights top-performing genres globally.
-- **Revenue by Release Month**: Shows seasonal trends in box office performance.
-- **Revenue by Original Language**: Examines the impact of a movie’s language on global appeal.
-- **Audience Ratings vs. Revenue**: Investigates how ratings and votes affect box office performance.
+To answer these questions, I analyzed multiple datasets, merging and cleaning them to create a unified dataset for analysis. The primary datasets I used were:  
+
+- **Box Office Mojo**: Data on box office performance by studio.  
+- **The Numbers**: Focused on production budgets and revenues.  
+- **Rotten Tomatoes Reviews**: Audience and critic review scores.  
+- **Rotten Tomatoes Movie Info**: Metadata, including genres, runtimes, and release dates.  
+- **TMDB**: Popularity metrics, genre details, and vote counts.  
+- **IMDb Database**: A zipped SQLite database containing `movie_basics` and `movie_ratings` tables for detailed insights into movie ratings and metadata.  
 
 ---
 
-## **Tools and Technologies Used**
-- **Python**: For data cleaning, analysis, and visualizations.
-- **Tableau**: For creating interactive dashboards.
-- **Libraries**: Pandas, Seaborn, Matplotlib, and others for statistical and graphical analysis.
+### Actions Taken  
+
+- I cleaned and standardized datasets to address missing values and formatting inconsistencies.  
+- I merged the relevant datasets to form a consolidated, clean dataset for analysis.  
 
 ---
 
-## **Interactive Dashboards**
-Using Tableau, I created dashboards that allow stakeholders to:
-- Explore genre-specific revenue trends.
-- Identify optimal release windows.
-- Compare studio profitability.
-- Understand the impact of audience ratings on revenue.
+### Key Features in the Data  
 
+- **Revenue Metrics**: Domestic, foreign, and worldwide gross.  
+- **Production Metrics**: Budget, profit, and profit margins.  
+- **Movie Details**: Genres, runtimes, release dates, and languages.  
+- **Audience Insights**: Average ratings and vote counts.  
+
+---
+
+### Questions Answered  
+
+- **What genres should producers invest in?**  
+  I found that **Animation**, **Adventure**, and **Sci-Fi** movies consistently generate the highest revenue, with average grosses of $397M, $380M, and $371M, respectively. These genres dominate global markets, making them highly profitable investments for studios.  
+![alt text](output.png)
+- **Does budget guarantee success?**  
+  By plotting the relationship between production budgets and worldwide gross, I discovered a strong positive correlation (r = 0.76). Higher budgets generally lead to higher revenue; however, I also observed that profitability depends on spending strategically, as outliers exist where high budgets yielded underwhelming returns.  
+![alt text](output2.png)
+- **Which studios have the highest profit margins?**  
+  My analysis showed that **UTV** leads with an impressive average profit margin of 30.02%, followed by **WB (NL)** at 13.78% and **FD** at 12.40%. This analysis highlighted the importance of operational efficiency and strategic investments, as studios with smaller budgets can outperform bigger players in profitability.  
+![alt text](output4.png)
+- **When should movies be released?**  
+  Based on my findings, **May** and **June** are the most lucrative months for movie releases, with average revenues of $204M and $192M, respectively. These months align with blockbuster seasons, including summer and holiday periods, which maximize box office potential. In contrast, months like **October** and **January** have much lower average revenues, indicating a reduced pull during these times.  
+
+- **How do audience ratings affect success?**  
+  By examining the correlation between the number of votes and worldwide gross, I found a moderate positive correlation (r = 0.57). Movies with higher audience engagement (reflected in the number of votes) tend to perform better at the box office, suggesting that audience approval and buzz contribute significantly to success.  
+![alt text](output6.png)
+![alt text](output5.png)
+- **How does a movie's original language influence revenue?**  
+  My analysis showed that English-language movies dominate global revenue. However, I observed that some non-English movies have begun gaining traction in niche markets, proving that strategic storytelling can transcend language barriers.  
+
+---
+
+### Graphs and Visualizations  
+
+1. **Relationship Between Production Budget and Worldwide Gross**  
+   I created a scatter plot that revealed a strong positive correlation between production budgets and worldwide gross revenue. The regression line illustrated that, while higher budgets often lead to higher revenue, profitability depends on strategic allocation of resources.  
+
+2. **Top 10 Studios by Profit Margin (ROI)**  
+   I visualized the profit margins of the top 10 studios, showing that **UTV** leads with an average ROI of 30.02%. This visualization highlighted the importance of efficient budgeting and strategic operations in maximizing profitability.  
+
+3. **Number of Votes vs. Worldwide Gross**  
+   I analyzed how audience votes correlate with worldwide revenue. The scatter plot showed that movies with more audience votes tend to generate higher box office revenue, suggesting that audience engagement is a critical driver of financial success.  
+
+4. **Average Revenue by Genre**  
+   My analysis revealed that **Animation**, **Adventure**, and **Sci-Fi** are the highest-earning genres globally, making them key investments for studios aiming for large-scale returns.  
+
+5. **Revenue by Release Month**  
+   I created a bar chart to explore seasonal trends, which confirmed that movies released in **May** and **June** generate the highest average revenues, while those in **October** and **January** underperform.  
+
+---
+
+### Tools and Technologies Used  
+
+- **Python**: For data cleaning, analysis, and visualizations.  
+- **Tableau**: For creating interactive dashboards.  
+- **Libraries**: Pandas, Seaborn, Matplotlib, and others for statistical and graphical analysis.  
+
+---
+
+### Interactive Dashboards  
+
+Using Tableau, I developed dashboards to allow stakeholders to:  
+
+- Explore genre-specific revenue trends.  
+- Identify optimal release windows.  
+- Compare studio profitability.  
+- Understand the impact of audience ratings on revenue.  
 📂 **Access the Tableau Workbook**: *(Insert link here)*
 
 ---
 
 ## **Files in Repository**
-| **File Name**             | **Description**                                      |
-|---------------------------|----------------------------------------------------|
-| `cleaned_merged_movies.csv` | Preprocessed dataset used throughout the analysis. |
-| `Final_Movie_Analysis.ipynb` | Jupyter Notebook with code, analysis, and visualizations. |
-| `requirements.txt`        | File listing all Python dependencies.             |
-| `Tableau_Workbook.twb`    | Tableau workbook containing all dashboards.        |
+| **File Name**                   | **Description**                                      |
+|---------------------------------|----------------------------------------------------|
+| `cleaned_merged_movies.csv`     | Preprocessed dataset used throughout the analysis. |
+| `Final_Movie_Analysis.ipynb`    | Jupyter Notebook with code, analysis, and visualizations. |
+| `requirements.txt`              | File listing all Python dependencies.             |
+| `Movie_insight_Workbook.twb`    | Tableau workbook containing all dashboards.        |
+| `Movie_insight.pdf`             | pdf of the notebook containing all dashboards.        |
 
 ---
 
