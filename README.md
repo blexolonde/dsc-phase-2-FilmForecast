@@ -1,6 +1,8 @@
 
 # **Movie Analysis Project**
 
+![alt text](images/movie.jpeg)
+
 ## **Table of Contents**
 1. [Project Overview](#project-overview)  
 2. [Key Insights and Visualizations](#key-insights-and-visualizations)  
@@ -72,14 +74,14 @@ To answer these questions, I analyzed multiple datasets, merging and cleaning th
 ![alt text](images/output2.png)
 - **Which studios have the highest profit margins?**  
   My analysis showed that **UTV** leads with an impressive average profit margin of 30.02%, followed by **WB (NL)** at 13.78% and **FD** at 12.40%. This analysis highlighted the importance of operational efficiency and strategic investments, as studios with smaller budgets can outperform bigger players in profitability.  
-![alt text](output4.png)
+![alt text](/images/output4.png)
 - **When should movies be released?**  
   Based on my findings, **May** and **June** are the most lucrative months for movie releases, with average revenues of $204M and $192M, respectively. These months align with blockbuster seasons, including summer and holiday periods, which maximize box office potential. In contrast, months like **October** and **January** have much lower average revenues, indicating a reduced pull during these times.  
-
+![alt text](images/output3.png)
 - **How do audience ratings affect success?**  
   By examining the correlation between the number of votes and worldwide gross, I found a moderate positive correlation (r = 0.57). Movies with higher audience engagement (reflected in the number of votes) tend to perform better at the box office, suggesting that audience approval and buzz contribute significantly to success.  
-![alt text](output6.png)
-![alt text](output5.png)
+![alt text](/images/output6.png)
+![alt text](/images/output5.png)
 - **How does a movie's original language influence revenue?**  
   My analysis showed that English-language movies dominate global revenue. However, I observed that some non-English movies have begun gaining traction in niche markets, proving that strategic storytelling can transcend language barriers.  
 
@@ -127,12 +129,12 @@ Using Tableau, I developed dashboards to allow stakeholders to:
 ## **Files in Repository**
 | **File Name**                   | **Description**                                      |
 |---------------------------------|----------------------------------------------------|
-| `cleaned_merged_movies.csv`     | Preprocessed dataset used throughout the analysis. |
+| `zippeddata folder`             | Dataset used throughout the analysis. |
 | `final.ipynb`                   | Jupyter Notebook with code, analysis, and visualizations. |
 | `requirements.txt`              | File listing all Python dependencies.             |
 | `Movie_insight_Workbook.twb`    | Tableau workbook containing all dashboards.        |
 | `movie_insight.pdf`             | pdf of the notebook containing all dashboards.        |
-
+| `images folder``                | all images used in the notebook.        |
 ---
 
 ## **Future Enhancements**
