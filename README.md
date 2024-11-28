@@ -66,10 +66,10 @@ To answer these questions, I analyzed multiple datasets, merging and cleaning th
 
 - **What genres should producers invest in?**  
   I found that **Animation**, **Adventure**, and **Sci-Fi** movies consistently generate the highest revenue, with average grosses of $397M, $380M, and $371M, respectively. These genres dominate global markets, making them highly profitable investments for studios.  
-![alt text](output.png)
+![alt text](images/output.png)
 - **Does budget guarantee success?**  
   By plotting the relationship between production budgets and worldwide gross, I discovered a strong positive correlation (r = 0.76). Higher budgets generally lead to higher revenue; however, I also observed that profitability depends on spending strategically, as outliers exist where high budgets yielded underwhelming returns.  
-![alt text](output2.png)
+![alt text](images/output2.png)
 - **Which studios have the highest profit margins?**  
   My analysis showed that **UTV** leads with an impressive average profit margin of 30.02%, followed by **WB (NL)** at 13.78% and **FD** at 12.40%. This analysis highlighted the importance of operational efficiency and strategic investments, as studios with smaller budgets can outperform bigger players in profitability.  
 ![alt text](output4.png)
