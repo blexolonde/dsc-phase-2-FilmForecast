@@ -128,10 +128,10 @@ Using Tableau, I developed dashboards to allow stakeholders to:
 | **File Name**                   | **Description**                                      |
 |---------------------------------|----------------------------------------------------|
 | `cleaned_merged_movies.csv`     | Preprocessed dataset used throughout the analysis. |
-| `Final_Movie_Analysis.ipynb`    | Jupyter Notebook with code, analysis, and visualizations. |
+| `final.ipynb`                   | Jupyter Notebook with code, analysis, and visualizations. |
 | `requirements.txt`              | File listing all Python dependencies.             |
 | `Movie_insight_Workbook.twb`    | Tableau workbook containing all dashboards.        |
-| `Movie_insight.pdf`             | pdf of the notebook containing all dashboards.        |
+| `movie_insight.pdf`             | pdf of the notebook containing all dashboards.        |
 
 ---
 
